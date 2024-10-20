@@ -13,7 +13,6 @@ def package_executable(script_name):
     '--onefile',
     '--windowed',
     '--distpath', '.',
-    '--exclude-module', 'numpy',  # If you're sure you don't need numpy (not common)
     script_name
     ]
 
