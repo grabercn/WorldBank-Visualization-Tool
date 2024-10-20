@@ -25,10 +25,13 @@ Welcome to **World-BankUI**, an unofficial graphing tool that empowers users to 
 - Matplotlib
 - pandas
 
-## Installation
+## Installation 
+ - **Python** is required to run this program. After downloading and installing, simply **run worldBankUI.py**.
+ - Any required packages will be **automatically installed** on first run. 
 
- - After **Installation** we reccomend creating a precompiled EXE to run this program, due to the **simplicity.**
- - If you prefer to run it manually, you just need to install the dependencies via the requirements.txt and run the worldBankUI.py file.
+## For Easy Use
+ - After **Installation** we recommend creating a precompiled EXE to run this program, due to the **simplicity.**
+ - To do this, simply run the exe-creater.py.
 
 ## Usage
 1. Select Countries: Click to select multiple countries from the list.
