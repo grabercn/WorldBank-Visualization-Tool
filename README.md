@@ -1,6 +1,6 @@
 # World-BankUI (Unofficial Visualization Tool)
 
-![World-BankUI]([https://via.placeholder.com/800x400.png?text=World-BankUI+Logo](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fdownload.logo.wine%2Flogo%2FWorld_Bank%2FWorld_Bank-Logo.wine.png&f=1&nofb=1&ipt=5e1c7a34e1f262bc9812f858be7aa4804cccd4ea4775c444a2474855063cea7b&ipo=images))
+![World-BankUI](https://via.placeholder.com/800x400.png?text=World-BankUI+Logo](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fdownload.logo.wine%2Flogo%2FWorld_Bank%2FWorld_Bank-Logo.wine.png&f=1&nofb=1&ipt=5e1c7a34e1f262bc9812f858be7aa4804cccd4ea4775c444a2474855063cea7b&ipo=images)](https://download.logo.wine/logo/World_Bank/World_Bank-Logo.wine.png))
 
 ## Overview
 
