@@ -1,6 +1,6 @@
 # World-BankUI (Unofficial Visualization Tool)
 
-[![World-BankUI](https://www.pngitem.com/pimgs/m/355-3556129_world-bank-group-logo-hd-png-download.png)](https://www.pngitem.com/pimgs/m/355-3556129_world-bank-group-logo-hd-png-download.png)
+[![World-BankUI](https://www.cmia.net/wp-content/uploads/2018/05/The_World_Bank_logo.svg_.png)](https://www.cmia.net/wp-content/uploads/2018/05/The_World_Bank_logo.svg_.png)
 
 ## Overview
 
