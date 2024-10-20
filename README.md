@@ -1,6 +1,6 @@
 # World-BankUI (Unofficial Visualization Tool)
 
-[![World-BankUI](https://via.placeholder.com/800x400.png?text=World-BankUI+Logo)](https://download.logo.wine/logo/World_Bank/World_Bank-Logo.wine.png)
+[![World-BankUI](https://www.pngitem.com/pimgs/m/355-3556129_world-bank-group-logo-hd-png-download.png)](https://www.pngitem.com/pimgs/m/355-3556129_world-bank-group-logo-hd-png-download.png)
 
 ## Overview
 
