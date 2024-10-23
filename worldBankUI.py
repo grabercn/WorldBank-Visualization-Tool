@@ -4,11 +4,10 @@ from matplotlib.pyplot import bar, plot, scatter, title, xlabel, ylabel, figure,
 import pandas as pd
 import subprocess
 import importlib
-from PyQt5.QtWidgets import (QMainWindow, QVBoxLayout, QWidget, 
-                             QLabel, QListWidget, QApplication, 
-                             QTableWidget, QTableWidgetItem, 
-                             QMessageBox, QPushButton, QComboBox, 
-                             QSizePolicy, QCheckBox)
+from PyQt5.QtWidgets import (QMainWindow, QVBoxLayout, QWidget, QLabel, QListWidget, 
+                             QApplication, QTableWidget, QTableWidgetItem, 
+                             QMessageBox, QPushButton, QComboBox, QSizePolicy, 
+                             QCheckBox, QLineEdit)
 
 # this section checks needed modules and installs them if necessary
 # List of required modules
@@ -57,6 +56,12 @@ class WorldBankUI(QMainWindow):
         # Instructional label for data series selection
         self.instruction_label_series = QLabel("Select a Data Series:")
         self.layout.addWidget(self.instruction_label_series)
+
+        # Search bar for data series list
+        self.data_search_bar = QLineEdit()
+        self.data_search_bar.setPlaceholderText("Search datasets...")
+        self.data_search_bar.textChanged.connect(self.filter_data_series)
+        self.layout.addWidget(self.data_search_bar)
         
         # List widget to display fetched data series
         self.data_list = QListWidget()
@@ -144,6 +149,12 @@ class WorldBankUI(QMainWindow):
         finally:
             self.loading_label.setText("")  # Clear loading message
 
+    def filter_data_series(self, text):
+        """Filters the data series based on search bar input."""
+        filtered_data = [f"{item['id']}: {item['value']}" for item in self.data if text.lower() in item['value'].lower()]
+        self.data_list.clear()
+        self.data_list.addItems(filtered_data)
+
     def on_data_series_selected(self, item):
         """Handles the selection of a data series from the list."""
         try:
@@ -230,4 +241,3 @@ if __name__ == "__main__":
     window = WorldBankUI()
     window.show()
     sys.exit(app.exec_())
-   
