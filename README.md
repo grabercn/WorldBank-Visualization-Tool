@@ -6,11 +6,14 @@
 
 Welcome to **World-BankUI**, an unofficial graphing tool that empowers users to visualize economic data from the World Bank with ease. This application allows you to select countries and specific data series, making it simple to generate insightful graphs and tables. Whether you're a researcher, student, or just curious about economic trends, World-BankUI provides a user-friendly interface to explore and analyze data.
 
+*A Premade exe file* can be [found here](https://drive.google.com/drive/folders/119F9duYFAhaatgnTi0o0Dz9NLDD5YtNC?usp=sharing) for your convienence, which was generated using pyinstaller.
+
 ## Features
 
 - **Multi-Selection of Countries:** Choose multiple countries to visualize their economic data.
 - **Dynamic Data Series Selection:** Access a vast list of available data series from the World Bank.
 - **Interactive Graphing Options:** Plot data in various formats including Line, Bar, and Scatter graphs.
+- **Intelligent Predictions** Using an intelligent statistical ARIMA model, future trends can be predicted with great accuracy.
 - **Customizable Marker Styles:** Select from multiple marker styles to enhance your visualizations.
 - **User-Friendly Interface:** Designed with a clean and intuitive layout for ease of use.
 - **Data Table Display:** View data in a tabular format for detailed analysis.
@@ -26,8 +29,9 @@ Welcome to **World-BankUI**, an unofficial graphing tool that empowers users to 
 - pandas
 
 ## Installation 
+ - A prebuilt exe file for Windows devices can be found [here](https://drive.google.com/drive/folders/119F9duYFAhaatgnTi0o0Dz9NLDD5YtNC?usp=sharing)!
  - **Python** is required to run this program. After downloading and installing, simply **run worldBankUI.py**.
- - Any required packages will be **automatically installed** on first run. 
+ - Any required packages needed can be installed with the requirements.txt
 
 ## For Easy Use
  - After **Installation** we recommend creating a precompiled EXE to run this program, due to the **simplicity.**
