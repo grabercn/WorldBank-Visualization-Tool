@@ -11,6 +11,7 @@ Welcome to **World-BankUI**, an unofficial graphing tool that empowers users to 
 - **Multi-Selection of Countries:** Choose multiple countries to visualize their economic data.
 - **Dynamic Data Series Selection:** Access a vast list of available data series from the World Bank.
 - **Interactive Graphing Options:** Plot data in various formats including Line, Bar, and Scatter graphs.
+- **Intelligent Predictions** Using a intelligent statistical ARIMA model, future trends can be predicted with great accuracy.
 - **Customizable Marker Styles:** Select from multiple marker styles to enhance your visualizations.
 - **User-Friendly Interface:** Designed with a clean and intuitive layout for ease of use.
 - **Data Table Display:** View data in a tabular format for detailed analysis.
