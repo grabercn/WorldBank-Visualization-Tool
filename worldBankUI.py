@@ -1,31 +1,11 @@
-# List of required modules
-required_modules = [
-    'wbgapi', 'matplotlib', 'pandas', 'PyQt5', 'scikit-learn', 'statsmodels', 'numpy', 'pyinstaller'
-]
-
-# needed imports for the auto installer
+# program starts here
+import wbgapi as wb
 import importlib
 import subprocess
 import sys
-
-# checks if any modules need installing
-def install_missing_modules():
-    for module in required_modules:
-        try:
-            importlib.import_module(module)
-        except ImportError:
-            print(f"Module '{module}' not found. Installing...")
-            subprocess.check_call([sys.executable, "-m", "pip", "install", module])
-
-install_missing_modules()
-
-# rest of the program continues here
-import wbgapi as wb
 from matplotlib.pyplot import bar, plot, scatter, title, xlabel, ylabel, figure, xticks, legend, grid, show, xlim
 import pandas as pd
-from sklearn.linear_model import LinearRegression
 import numpy as np
-import statsmodels.api as sm
 from statsmodels.tsa.arima.model import ARIMA
 from PyQt5.QtWidgets import (QMainWindow, QVBoxLayout, QWidget, QLabel, QListWidget, 
                              QApplication, QTableWidget, QTableWidgetItem, 
